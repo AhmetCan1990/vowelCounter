@@ -3,7 +3,7 @@ let inpt = document.querySelector("input");
 btn.addEventListener("click", countVowels);
 inpt.addEventListener("keypress", (event) => {
   if (event.key === "Enter") {
-    countVowels();
+    btn.click();
   }
 });
 function countVowels() {
